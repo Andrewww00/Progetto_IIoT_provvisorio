@@ -40,6 +40,7 @@ pip3 install kconfiglib
 pip install --user jsonschema
 pip install --user jinja2
 ```
+
 ### Install MAVROS
 To install MAVROS run:
 ```
@@ -48,6 +49,7 @@ wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/inst
 chmod +x install_geographiclib_datasets.sh
 sudo ./install_geographiclib_datasets.sh
 ```
+
 ### Install Gazebo Classic
 To install Gazebo Classic run this:
 ```
@@ -55,36 +57,14 @@ sudo apt remove gz-garden
 sudo apt install aptitude
 sudo aptitude install gazebo libgazebo11 libgazebo-dev
 ```
+
 ### Create Folder
 First of all we need to create a folder in the home directory:
 ```
-mkdir -p ~/(name)/src
+mkdir -p ~/ros_ws
 ```
 inside the new folder clone this repo:
 ```
-
+git clone "https://github.com/Andrewww00/ros2_ws.git"
 ```
 
-### Build
-Before building source ROS2 installation, copy this into .bashrc:
-```
-source /opt/ros/humble/setup.bash
-```
-Then go in the home directory, 
-```
-cd (name folder)
-```
-and run
-```
-colcon build
-```
-once done, we will face a warning about setup.py, but it works.
-Then:
-```
-source install/setup.bash
-```
-### Run project
-Once all is done launch the project:
-```
-ros2 launch IIoT_project run_project.launch.py
-```
