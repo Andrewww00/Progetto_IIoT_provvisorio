@@ -1,3 +1,0 @@
-[console_scripts]
-mission = project_pkg.mission:main
-
