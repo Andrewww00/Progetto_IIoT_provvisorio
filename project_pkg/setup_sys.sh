@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gnome-terminal --title="PX4 SITL" -- bash -c "cd /home/vboxuser/PX4-Autopilot && make px4_sitl_default gazebo-classic_iris__baylands; exec bash"
+gnome-terminal --title="PX4 SITL" -- bash -c "cd ~/PX4-Autopilot && make px4_sitl_default gazebo-classic_iris__baylands; exec bash"
 
 gnome-terminal --title="QGC" -- bash -c "./QGroundControl.AppImage; exec bash"
 
