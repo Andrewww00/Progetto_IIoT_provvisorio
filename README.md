@@ -59,8 +59,11 @@ Now, clone the repository inside the src:
 ```
 git clone "https://github.com/Andrewww00/ros2_ws.git"
 ```
-Once done, run the .sh file for setup the env:
+Once done, you can use the setup_sys.sh file to setup the env:
 ```
+cp ros_folder/src/Progetto_IIoT_provvisorio/project_pkg/setup_sys.sh ~
+chmod +x setup_sys.sh
+cd ~
 ./setup_sys.sh
 ```
 Then run the ros2 node to start the mission:
