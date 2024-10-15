@@ -1,8 +1,15 @@
 # IIoT project 
 This project aims to control a simulated drone and make it react to external factors such as the presence of obstacles along its path.
-First, the drone is sent on a mission with GPS coordinates. When it encounters an obstacle, it switches to obstacle avoidance mode. After successfully avoiding the obstacle, the drone continues towards the mission point.
+First, the drone is sent on a mission with GPS coordinates. When it encounters an obstacle, it switches to offboard mode. After successfully avoiding the obstacle, the drone continues towards the mission point.
 
-## Setup
+In this repo, you'll find a guide to setting up the environment required to reproduce the proposed solution.
+
+To achieve the project's goal, the following tools and software are used: 
+* VM with Ubuntu 22.04;
+* PX4-Autopilot;
+* QGroundControl
+* ROS 2 Humble;
+* MAVROS
 
 ### Install PX4-Autopilot
 
