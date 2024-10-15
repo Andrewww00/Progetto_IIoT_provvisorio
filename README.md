@@ -82,14 +82,14 @@ source /opt/ros/humble/setup.bash
 source ~/(folder_name)/install/setup.bash
 source /usr/share/colcon_argcomplete/hook/colcon_argcomplete.bash # This line enable autocomplition colcon commands by pressing tab key.
 ```
-Then compile the workspace:
+First, move to (folder_name) then build the workspace:
 ```
-cd ..
 colcon build
 ```
 
 Once done, you can use the setup_sys.sh file to setup the env:
-``` 
+```
+cd
 chmod +x ~/(folder_name)/src/Progetto_IIoT_provvisorio/project_pkg/setup_sys.sh
 ./(folder_name)/src/Progetto_IIoT_provvisorio/project_pkg/setup_sys.sh
 ```
