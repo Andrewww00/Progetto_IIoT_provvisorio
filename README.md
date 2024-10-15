@@ -74,7 +74,7 @@ cd ~/(folder_name)/src
 ```
 Now, clone the repository inside the src:
 ```
-git clone "https://github.com/Andrewww00/ros2_ws.git"
+git clone https://github.com/Andrewww00/Progetto_IIoT_provvisorio.git
 ```
 Before building the workspace, add this lines to your .bashrc file. By using this you avoid sourceing the setup.bash of both ros2 distro and workspace everytime.
 ```
