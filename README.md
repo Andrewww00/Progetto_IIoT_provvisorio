@@ -4,7 +4,7 @@ First, the drone is sent on a mission with GPS coordinates. When it encounters a
 
 In this repo, you'll find a guide to setting up the environment required to reproduce the proposed solution.
 
-To achieve the project's goal, the following tools and software are used: 
+To achieve the project's goal, the following tools are used: 
 * VM with Ubuntu 22.04;
 * PX4-Autopilot;
 * QGroundControl
