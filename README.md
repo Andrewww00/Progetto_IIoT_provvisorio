@@ -60,7 +60,7 @@ sudo apt install libxcb-xinerama0 libxkbcommon-x11-0 libxcb-cursor-dev -y
 ```
 Then download the AppImage from [here](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html)
 
-Once downloaded, move to the location where the .AppImage is and run:
+Once downloaded, move the file to home directory and run:
 ```
 chmod +x ./QGroundControl.AppImage
 ./QGroundControl.AppImage
