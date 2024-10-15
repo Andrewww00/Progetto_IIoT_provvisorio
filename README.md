@@ -19,18 +19,6 @@ Restart the computer on completion.
 ### Install ROS2 Humble
 To install ROS2 Humble: [here](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
 
-### Install Dependencies
-Install Python dependencies with this code
-```
-pip3 install --user -U empy pyros-genmsg setuptools
-```
-And:
-```
-pip3 install kconfiglib
-pip install --user jsonschema
-pip install --user jinja2
-```
-
 ### Install MAVROS
 To install MAVROS run:
 ```
