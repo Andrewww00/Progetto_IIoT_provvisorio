@@ -71,6 +71,13 @@ Now, clone the repository inside the src:
 ```
 git clone https://github.com/Andrewww00/Progetto_IIoT_provvisorio.git
 ```
+Install colcon to build the workspace:
+```
+sudo sh -c 'echo "deb [arch=amd64,arm64] http://repo.ros2.org/ubuntu/main `lsb_release -cs` main" > /etc/apt/sources.list.d/ros2-latest.list'
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+sudo apt update
+sudo apt install python3-colcon-common-extensions
+```
 Before building the workspace, add this lines to your .bashrc file. By using this you avoid sourceing the setup.bash of both ros2 distro and workspace everytime.
 ```
 source /opt/ros/humble/setup.bash
